@@ -5,7 +5,8 @@ module.exports = {
    * Make sure the first answer is the correct one.
    * Set at least ANSWER_COUNT answers, any extras will be shuffled in.
    */
-  QUESTIONS_DE_DE: [{
+  QUESTIONS_DE_DE: [
+    {
       'Wo befindet sich der Hauptsitz der Suva?': [
         'Luzern',
         'Bern',
@@ -28,16 +29,16 @@ module.exports = {
     }
     , {
       'Was sind unsere Werte?': [
-        'fokussiert/mutig/fair',
-        'zuvorkommend/fair/ergebnisorientiert',
-        'ergebnisorientiert/mutig/kompetent'
+        'fokussiert, mutig, fair',
+        'zuvorkommend, fair, ergebnisorientiert',
+        'ergebnisorientiert, mutig, kompetent'
       ]
     },
     {
       'Wie viele Personen werden durch die Suva in der Schweiz versichert?': [
-        'ca. 2 Millionen',
-        'ca. 500000',
-        'ca. 1 Million'
+        'ca. 2 Millionen ',
+        'ca. <say-as interpret-as="cardinal">500000</say-as> ',
+        'ca. eine Million '
       ]
     }, {
       'Die Suva betreibt ...': [
@@ -75,9 +76,9 @@ module.exports = {
     {
       'Zahl der registrierten Unfälle in der Schweiz': [
 
-        '800000',
-        '300000',
-        '500000'
+        '<say-as interpret-as="cardinal">800000</say-as>',
+        '<say-as interpret-as="cardinal">300000</say-as>',
+        '<say-as interpret-as="cardinal">500000</say-as>'
       ]
     },
     {
@@ -114,8 +115,8 @@ module.exports = {
 
     {
       'Wie werden die Leistungen der Suva finanziert?':[
-      'Bundessteuer',
       'Prämien der Arbeitgeber und Arbeitnehmer',
+      'Bundessteuer',
       'Einnahmen aus Rückgriff gegenüber Haftpflichtigen']
     },
     {
@@ -125,10 +126,10 @@ module.exports = {
         '45 bis 49 Jahre'
       ]
     }, {
-      'Verhältnis Mann – Frau bei Nichtberufsunfällen?': [
-        '3 zu 2',
-        '1 zu 1',
-        '2 zu 3'
+      'Wie ist das Verhältnis Mann – Frau bei Nichtberufsunfällen?': [
+        '3 zu <say-as interpret-as="cardinal">2</say-as>',
+        '1 zu <say-as interpret-as="cardinal">1</say-as>',
+        '2 zu <say-as interpret-as="cardinal">3</say-as>'
       ]
     },
     {
@@ -197,23 +198,23 @@ module.exports = {
     },
     {
       'Wie hoch ist die versicherte Lohnsumme? (Stand 2016)': [
-        '147,8 Milliarden CHF',
-        '95,3 Milliarden CHF',
-        '172,4 Milliarden CHF'
+        '147 Milliarden Schweizerfranken',
+        '95 Milliarden Schweizerfranken',
+        '172 Milliarden Schweizerfranken'
       ]
     },
     {
       'Wie viele Berufsunfälle ereigneten sich durchschnittlich in den letzten 10 Jahren?': [
-        '180 000',
-        '50 000',
-        '450 000'
+        '<say-as interpret-as="cardinal">180000</say-as> ',
+        '<say-as interpret-as="cardinal">50000</say-as> ',
+        '<say-as interpret-as="cardinal">450000</say-as> '
       ]
     },
     {
       'Wie viele Mitarbeitenden beschäftigt die Suva? (Schätzfrage)': [
-        'rund 4200',
-        'rund 3600',
-        'rund 5400'
+        'rund <say-as interpret-as="cardinal">4200</say-as>',
+        'rund <say-as interpret-as="cardinal">3600</say-as>',
+        'rund <say-as interpret-as="cardinal">5400</say-as>'
       ]
 
     }
