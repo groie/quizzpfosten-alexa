@@ -1,0 +1,82 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "quiz",
+            "intents": [
+                {
+                    "name": "AnswerIntent",
+                    "slots": [
+                        {
+                            "name": "Answer",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "die Antwort ist {Answer}",
+                        "meine Antwort ist {Answer}",
+                        "ist die Antwort {Answer}",
+                        "{Answer} ist meine Antwort",
+                        "{Answer}"
+                    ]
+                },
+                {
+                    "name": "DontKnowIntent",
+                    "slots": [],
+                    "samples": [
+                        "weiß ich nicht",
+                        "weiß nicht",
+                        "überspringen",
+                        "das weiß ich nicht",
+                        "wer weiß",
+                        "diese Frage weiß ich nicht",
+                        "die weiß ich nicht",
+                        "keine Ahnung"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StartOverIntent",
+                    "samples": [
+                        "Spiel starten",
+                        "neues Spiel",
+                        "neues Spiel starten"
+                    ]
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": [
+                        "wiederholen",
+                        "Bitte wiederholen"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "Stop"
+                    ]
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "Ich muss weg",
+                        "Fertig damit",
+                        "Fertig lustig",
+                        "Quiz beenden"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
