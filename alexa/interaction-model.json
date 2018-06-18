@@ -54,22 +54,26 @@
                 },
                 {
                     "name": "AMAZON.YesIntent",
-                    "samples": []
+                    "samples": [
+                        "ja"
+                    ]
                 },
                 {
                     "name": "AMAZON.NoIntent",
-                    "samples": []
+                    "samples": [
+                        "nein"
+                    ]
                 },
                 {
                     "name": "AMAZON.StopIntent",
                     "samples": [
+                        "ich muss weg",
                         "Stop"
                     ]
                 },
                 {
                     "name": "AMAZON.CancelIntent",
                     "samples": [
-                        "Ich muss weg",
                         "Fertig damit",
                         "Fertig lustig",
                         "Quiz beenden"
